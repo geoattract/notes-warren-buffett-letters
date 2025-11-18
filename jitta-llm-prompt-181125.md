@@ -46,9 +46,8 @@ Extract and organize the following data from the Jitta FactSheet:
 ### A. COMPANY IDENTIFIERS
 Company Name: [Extract from header]
 Ticker: [NASDAQ/NYSE/etc]
-Current Stock Price: [Price]MarketCapitalization:[MarketCap in Billions/Millions]
-Jitta Score: [Score]/10
-Jitta Assessment: [Over/Under Jitta Line - %]
+Current Stock Price: [Price]
+Market Capitalization: [MarketCap in Billions/Millions]
 Industry/Sector: [From classification]
 Last Updated: [Date]
 
@@ -898,27 +897,6 @@ Examples:
 - Is inventory growing without revenue growth? [Obsolescence risk]
 - Have accounting policies changed recently? [Manipulation risk]
 - Significant estimates/accruals? [Earnings quality risk]
-
----
-
-## SECTION 10: JITTA SCORE RECONCILIATION
-
-Compare your intrinsic valuation to Jitta Score:
-
-$$\text{Jitta Fair Value} = \text{Current Price} \times \frac{\text{Jitta Score}}{5}$$
-
-(Jitta uses 5-point scale, with 5 = fair value)
-
-**Example:**
-- Current Price: $4.99
-- Jitta Score: 5.23 (means overvalued, >5)
-- Implied Jitta Fair Value ≈ ~$5.20 (approx)
-- BUT Jitta states "76.43% Over Jitta Line" = Stock is way overvalued
-
-**Reconciliation Questions:**
-- Does your DCF agree with Jitta assessment?
-- If they differ, explain why (different assumptions?)
-- Which is more credible given your analysis?
 
 ---
 
